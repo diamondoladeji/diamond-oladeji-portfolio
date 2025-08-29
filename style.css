@@ -1,7 +1,7 @@
 :root {
     --primary-color: #adf0d4;
-    --secondary-color: #1fd8a4;
-    --background-color: #154e9e;
+    --secondary-color: #d81f85;
+    --background-color: #ca7be6;
 }
 
 * {
@@ -13,6 +13,6 @@
 
 body {
     background-color: var(--background-color);
-    color: white;
+    color: var(--primary-color);
     line-height: 1.6;
 }
