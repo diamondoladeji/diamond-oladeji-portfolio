@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding: 14 px;
+    padding: 14px;
 }
 
 .darkerText {
@@ -58,6 +58,26 @@ main, section, .nameContainer {
     flex-direction: column;
 }
 
+main {
+    gap: 64px;
+}
+
+section {
+    gap: 32px;
+}
+
 .nameContainer {
     gap: 8px;
+}
+
+.imgContatiner {
+    border-radius: 100%;
+    max-width: 144px;
+    overflow: hidden;
+}
+
+.imgContatiner img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
